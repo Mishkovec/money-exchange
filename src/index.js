@@ -1,6 +1,6 @@
 // PLEASE DON'T change function name
-module.exports = function makeExchange(currency) {
-    var num = currency;
+module.exports = function makeExchange(currency){
+    var num =currency;
     var obj = {};
     if(num<=0){
        return obj;
@@ -53,5 +53,4 @@ function count(num, sub){
         }
         
     return amount ;
-}
 }
