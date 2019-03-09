@@ -35,7 +35,8 @@ module.exports = function makeExchange(currency){
        }
     }
 
-    return JSON.stringify(obj);
+    //return JSON.stringify(obj);
+    return obj;
 }
 
 function count(num, sub){
